@@ -1,0 +1,8 @@
+{
+  "name": "asdf",
+  "repo": "asdf-vm/asdf",
+  "version": "master",
+  "description": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more",
+  "install": "install -b src/semver ${PREFIX:-/usr/local}/bin/semver",
+  "scripts": [ "src/semver" ]
+}
