@@ -3,6 +3,7 @@
   "repo": "asdf-vm/asdf",
   "version": "master",
   "description": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more",
+  "global": "true",
   "install": "mv . ${HOME:-/root}/.asdf",
   "scripts": [ "src/semver" ]
 }
