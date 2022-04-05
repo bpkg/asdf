@@ -15,4 +15,4 @@ See https://github.com/asdf-vm/asdf for more information
 
 ## License
 
-See [LICENSE](https://github.com/asdf-vm/asdf/master/LICENSE).
+See [LICENSE](https://github.com/asdf-vm/asdf/blob/master/LICENSE).
