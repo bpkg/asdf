@@ -4,6 +4,6 @@
   "version": "master",
   "description": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more",
   "global": "true",
-  "install": "mv . ${HOME:-/root}/.asdf",
+  "install": "mkdir -p ${HOME}/.asdf && cp -R * ${HOME}/.asdf/",
   "scripts": [ "src/semver" ]
 }
