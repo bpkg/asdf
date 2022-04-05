@@ -4,6 +4,6 @@
   "version": "master",
   "description": "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more",
   "global": "true",
-  "install": "mkdir -p $HOME/.asdf && cp -R * $HOME/.asdf/ && echo \"Add this to lines: \\n. \$HOME/.asdf/asdf.sh\\n. $HOME/.asdf/completions/asdf.bash \\non your .bashrc file \"",
+  "install": "mkdir -p $HOME/.asdf && cp -R * $HOME/.asdf/ && echo ''; echo 'Add this to lines:'; echo '. $HOME/.asdf/asdf.sh'; echo '. $HOME/.asdf/completions/asdf.bash'; echo 'on your .bashrc file'",
   "scripts": [ "src/semver" ]
 }
